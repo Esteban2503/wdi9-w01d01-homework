@@ -1,0 +1,89 @@
+1  mkdir death_star
+ ls
+darth_vader.txt, princess_leia.txt, storm_trooper.txt
+
+2 cd galaxy_far_far_away
+    mkdir tatooine
+    cd tatooine
+  touch luke.txt ben_kenobi.txt.
+  ls
+
+  3 mkdir millenium_falcon
+  cd millenium_falcon
+  touch han_solo.txt chewbaca.txt
+
+  4 cd ..
+  mv ben_kenobi.txt obi_wan.txt
+
+  5 cd ..
+  cp storm_trooper.txt/death_star/ tatooine
+
+  6 mv luke.txt millenium_falcon
+  ls
+  mv obi_wan.txt millenium_falcon
+  ls
+
+  7 mv millenium_falcon ../galaxy_far_far_away
+  ls
+
+  8 mv millenium_falcon death_star
+  ls
+  
+  9 mv princess_leia.txt millenium_falcon
+
+  10 cd millenium_falcon 
+   rm obi_wan.txt
+   ls
+
+   11 cd .. ; galaxy_far_far_away
+   tree
+    mkdir yavin_4
+
+    12 mv millenium_falcon ../death_star/yavin_4/
+    ls
+
+    13 cd yavin_4
+    mkdir x_wing
+    ls
+
+    14 tree
+    cd..
+    mv princess_leia ../millenium_falcon/ yavin_4/
+    ls
+    mv luke.txt ../millenium_falcon/yavin_4/ x_wing/
+    ls
+
+    15 mv millenium_falcon ../ yavin_4
+    ls
+    mv x_wing ../ yavin_4
+
+    16 cd ..
+    cd death_star 
+    mkdir tie_fighter_1 tie_fighter_2  tie_fighter_3
+    ls  
+    
+    17 mv mv darth_vader.txt tie_fighter_1
+
+    18 cp storm_trooper.txt tie_fighter_2/
+        cp storm_trooper.txt tie_fighter_3/
+        cd  tie_fighter_2
+        ls
+
+    19 mv tie_fighter_1/tie_fighter_2/tie_fighter_3/ ../galaxy_far_far_away/ (individually moved)
+    cd galaxy_far_far_away
+    ls
+
+    20 While in galaxy_far_far_away command : mv tie_fighter_2
+    repeat for tie_fighter_3
+
+    21 cd x_wing
+    touch_force.txt
+
+    22 cd ../../  (to reach death_star)
+    rm -r death_star/
+    ls
+
+    23 from galaxy_far_far_away : mv x_wing/ yavin_4/
+    repeat with millenium_falcon
+
+
